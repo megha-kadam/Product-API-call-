@@ -1,0 +1,65 @@
+
+
+
+ .mainNavBar.bg-body-tertiary {
+    background-color: rgb(1 6 11) !important;
+}
+.mainNavBar .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.mainNavBar .nav-link {
+    color: white;
+}
+.mainNavBar .nav-item .nav-link:hover{
+    background-color: purple;
+}
+
+
+
+.productCard{
+    height: 200px;
+    margin: 0;
+    position: relative;
+}
+.productCard img{
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    object-fit: cover;
+}
+
+.icons ul{
+    list-style: none;
+}
+
+.productCard .icons{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+.productCard .icons ul li{
+    display: none;
+}
+.productCard:hover .icons li{
+    display: block;
+    cursor: pointer;
+}
+
+.productInfo small{
+    color: red;
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
